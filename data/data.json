@@ -1,0 +1,14 @@
+[{
+  "id": 1,
+  "name": "pizza",
+  "amount": 10
+},
+  {   "id":2,
+    "amount": 144,
+    "name": "asdf"
+  },
+  {
+    "id": 3,
+    "amount": 13,
+    "name": "pfghjizza"
+  }]

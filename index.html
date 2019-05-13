@@ -1,0 +1,45 @@
+<!doctype html>
+<html ng-app="myApp">
+    <head>
+        <meta charset="utf-8">
+        <title>Simple Angular App</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular-route.min.js"></script>
+
+    </head>
+    <body ng-controller="HomeViewController">
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">{{appTitle}}</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#"></a></li>
+                <li><a href="#/">Home</a></li>
+                <li><a href="#/expenses">Expenses</a></li>
+                <li><a href="#/expenses/new">New</a></li>
+                <li><a href="#/expenses/edit/3">Edit</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container" ng-view></div>
+    <!--<div class="container" ng-view>-->
+
+    <!--</div>-->
+
+    <script src="https://underscorejs.org/underscore-min.js"></script>
+    <!--<script-->
+            <!--src="https://code.jquery.com/jquery-1.11.0.min.js"-->
+            <!--integrity="sha256-spTpc4lvj4dOkKjrGokIrHkJgNA0xMS98Pw9N7ir9oI="-->
+            <!--crossorigin="anonymous"></script>-->
+    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>-->
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js"></script>-->
+
+    <script src="https://underscorejs.org/underscore-min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

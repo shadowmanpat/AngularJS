@@ -1,0 +1,13 @@
+<span class="pull-left">
+                {{expense.name  }}</span>
+</span>
+{{expense.amount}}
+
+<a href="#/expenses/edit/{{expense.id}}"> <button type="button" class="btn btn-danger pull-right"
+>
+    <span class="glyphicon glyphicon-pencil"></span>
+</button>
+</a>
+<button type="button" class="btn btn-danger pull-right " ng-click="remove(expense)">
+    <span class="glyphicon glyphicon-trash "></span>
+</button>
